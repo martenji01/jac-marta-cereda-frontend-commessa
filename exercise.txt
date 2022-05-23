@@ -1,1 +1,13 @@
 EXERCISE 23.05.2022
+
+due bottoni:
+- LISTA UTENTE
+- LISTA COMMESSE
+
+Lista utenti: https://zenithar-dev.herokuapp.com/users
+Lista commesse: https://zenithar-dev.herokuapp.com/orders
+Per utilizzare queste chiamate è necessario passare un token
+di autenticazione.
+Pertanto tra gli header della chiamata è necessario
+passare un parametro:
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGIzOTRkNzA4OWY5MDAxNmRiYzlkMSIsImlhdCI6MTY1MzI5MTM4Mn0.z11A1VUEDgMQFVfVpNuRSeaVEAV0uLmsYoqLPhT-yUs"

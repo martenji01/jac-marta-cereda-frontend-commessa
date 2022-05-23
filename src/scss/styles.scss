@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+$clr-pink: #f6c0ff;
+$clr-pink-darker: rgb(169, 79, 184);
+$clr-purple: #B5B2FE;
+$clr-blue: #5CA6F1;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quantico', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.App{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#buttonDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+button{
+    padding: 1em;
+    min-width: 5em;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.buttonFilter.users{
+    background-color: $clr-purple;
+}
+
+.buttonFilter.orders{
+    background-color: $clr-blue;
+}
+
+#table-data{
+    width: 80%;
+    border: 1px solid black;
+    thead{
+        background-color: $clr-pink;
+        tr th{
+            padding: 0.5em;
+            border: 1px solid black;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: $clr-pink-darker;
+        }
+    }
+
+    tbody{
+        tr td{
+            padding: 0.5em;
+            border: 1px solid black;
+        }
+    }
+}
+
+#form-orders{
+    padding: 2em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+    background-color: $clr-pink;
+    border-radius: 7px;
+}
+
+.inputSelect{
+    padding: .5em;
+}
